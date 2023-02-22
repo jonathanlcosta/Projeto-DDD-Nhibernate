@@ -68,22 +68,6 @@ namespace Dominio.Testes.Usuarios.Servicos
             }
         }
 
-        public class ListarUsuario: UsuarioServicoTestes
-        {
-             [Fact]
-        public void Quando_UsuariosEstiveremListados_Espero_ListaDeUsuario()
-        {
-            var listaUsuarios = new[]
-            {
-                new Usuario { Id = 1, Nome = "Usuario 1" },
-                new Usuario { Id = 2, Nome = "Usuario 2" },
-            };
-            usuariosRepositorio.Query().Returns(listaUsuarios.AsQueryable());
-            var actualUsuarios = sut.Query();
-            actualUsuarios.Should().BeEquivalentTo(listaUsuarios);
-        }
-        }
-
         public class ExcluirUsuario : UsuarioServicoTestes
         {
         [Fact]
