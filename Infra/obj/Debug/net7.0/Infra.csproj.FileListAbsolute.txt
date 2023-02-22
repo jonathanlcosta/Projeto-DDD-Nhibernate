@@ -1,0 +1,15 @@
+C:\Users\nickc\Downloads\ProjetoDDD\Infra\bin\Debug\net7.0\Infra.deps.json
+C:\Users\nickc\Downloads\ProjetoDDD\Infra\bin\Debug\net7.0\Infra.dll
+C:\Users\nickc\Downloads\ProjetoDDD\Infra\bin\Debug\net7.0\Infra.pdb
+C:\Users\nickc\Downloads\ProjetoDDD\Infra\bin\Debug\net7.0\Dominio.dll
+C:\Users\nickc\Downloads\ProjetoDDD\Infra\bin\Debug\net7.0\Dominio.pdb
+C:\Users\nickc\Downloads\ProjetoDDD\Infra\obj\Debug\net7.0\Infra.csproj.AssemblyReference.cache
+C:\Users\nickc\Downloads\ProjetoDDD\Infra\obj\Debug\net7.0\Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nickc\Downloads\ProjetoDDD\Infra\obj\Debug\net7.0\Infra.AssemblyInfoInputs.cache
+C:\Users\nickc\Downloads\ProjetoDDD\Infra\obj\Debug\net7.0\Infra.AssemblyInfo.cs
+C:\Users\nickc\Downloads\ProjetoDDD\Infra\obj\Debug\net7.0\Infra.csproj.CoreCompileInputs.cache
+C:\Users\nickc\Downloads\ProjetoDDD\Infra\obj\Debug\net7.0\Infra.csproj.CopyComplete
+C:\Users\nickc\Downloads\ProjetoDDD\Infra\obj\Debug\net7.0\Infra.dll
+C:\Users\nickc\Downloads\ProjetoDDD\Infra\obj\Debug\net7.0\refint\Infra.dll
+C:\Users\nickc\Downloads\ProjetoDDD\Infra\obj\Debug\net7.0\Infra.pdb
+C:\Users\nickc\Downloads\ProjetoDDD\Infra\obj\Debug\net7.0\ref\Infra.dll

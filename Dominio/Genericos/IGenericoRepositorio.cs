@@ -13,7 +13,7 @@ namespace Dominio.Genericos
 
         T Editar(T entidade);
 
-        void Excluir(int id);
+        void Excluir(T entidade);
 
         IQueryable<T> Query();
     }

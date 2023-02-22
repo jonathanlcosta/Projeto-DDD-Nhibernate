@@ -30,7 +30,9 @@ namespace Dominio.Usuarios.Servicos
 
         public void Excluir(int id)
         {
-            usuariosRepositorio.Excluir(id);
+            Usuario usuario = Validar(id);
+            usuariosRepositorio.Excluir(usuario);
+
         }
 
         public Usuario Inserir(Usuario usuario)

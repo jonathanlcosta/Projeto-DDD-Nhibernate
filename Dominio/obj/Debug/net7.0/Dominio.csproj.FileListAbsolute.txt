@@ -1,0 +1,12 @@
+C:\Users\nickc\Downloads\ProjetoDDD\Dominio\bin\Debug\net7.0\Dominio.deps.json
+C:\Users\nickc\Downloads\ProjetoDDD\Dominio\bin\Debug\net7.0\Dominio.dll
+C:\Users\nickc\Downloads\ProjetoDDD\Dominio\bin\Debug\net7.0\Dominio.pdb
+C:\Users\nickc\Downloads\ProjetoDDD\Dominio\obj\Debug\net7.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\nickc\Downloads\ProjetoDDD\Dominio\obj\Debug\net7.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nickc\Downloads\ProjetoDDD\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\nickc\Downloads\ProjetoDDD\Dominio\obj\Debug\net7.0\Dominio.AssemblyInfo.cs
+C:\Users\nickc\Downloads\ProjetoDDD\Dominio\obj\Debug\net7.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\nickc\Downloads\ProjetoDDD\Dominio\obj\Debug\net7.0\Dominio.dll
+C:\Users\nickc\Downloads\ProjetoDDD\Dominio\obj\Debug\net7.0\refint\Dominio.dll
+C:\Users\nickc\Downloads\ProjetoDDD\Dominio\obj\Debug\net7.0\Dominio.pdb
+C:\Users\nickc\Downloads\ProjetoDDD\Dominio\obj\Debug\net7.0\ref\Dominio.dll

@@ -9,11 +9,6 @@ namespace Dominio.Interfaces
 {
     public interface IUsuariosRepositorio : IGenericoRepositorio<Usuario>
     {
-      Usuario Recuperar(int id);
-      Usuario Inserir(Usuario usuario);
-      Usuario Editar(Usuario usuario);
-      void Excluir(int id);
-      IQueryable<Usuario> Query();
- 
+      
     }
 }

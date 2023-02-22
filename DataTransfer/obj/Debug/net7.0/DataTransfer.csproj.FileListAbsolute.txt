@@ -1,0 +1,15 @@
+C:\Users\nickc\Downloads\ProjetoDDD\DataTransfer\bin\Debug\net7.0\DataTransfer.deps.json
+C:\Users\nickc\Downloads\ProjetoDDD\DataTransfer\bin\Debug\net7.0\DataTransfer.dll
+C:\Users\nickc\Downloads\ProjetoDDD\DataTransfer\bin\Debug\net7.0\DataTransfer.pdb
+C:\Users\nickc\Downloads\ProjetoDDD\DataTransfer\bin\Debug\net7.0\Dominio.dll
+C:\Users\nickc\Downloads\ProjetoDDD\DataTransfer\bin\Debug\net7.0\Dominio.pdb
+C:\Users\nickc\Downloads\ProjetoDDD\DataTransfer\obj\Debug\net7.0\DataTransfer.csproj.AssemblyReference.cache
+C:\Users\nickc\Downloads\ProjetoDDD\DataTransfer\obj\Debug\net7.0\DataTransfer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nickc\Downloads\ProjetoDDD\DataTransfer\obj\Debug\net7.0\DataTransfer.AssemblyInfoInputs.cache
+C:\Users\nickc\Downloads\ProjetoDDD\DataTransfer\obj\Debug\net7.0\DataTransfer.AssemblyInfo.cs
+C:\Users\nickc\Downloads\ProjetoDDD\DataTransfer\obj\Debug\net7.0\DataTransfer.csproj.CoreCompileInputs.cache
+C:\Users\nickc\Downloads\ProjetoDDD\DataTransfer\obj\Debug\net7.0\DataTransfer.csproj.CopyComplete
+C:\Users\nickc\Downloads\ProjetoDDD\DataTransfer\obj\Debug\net7.0\DataTransfer.dll
+C:\Users\nickc\Downloads\ProjetoDDD\DataTransfer\obj\Debug\net7.0\refint\DataTransfer.dll
+C:\Users\nickc\Downloads\ProjetoDDD\DataTransfer\obj\Debug\net7.0\DataTransfer.pdb
+C:\Users\nickc\Downloads\ProjetoDDD\DataTransfer\obj\Debug\net7.0\ref\DataTransfer.dll

@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Dominio.Entidades;
 using Dominio.Interfaces;
 using Dominio.Usuarios.Interfaces;
@@ -48,9 +44,11 @@ namespace Dominio.Testes.Usuarios.Servicos
             [Fact]
             public void Quando_ParametrosParaCriarUsuarioForemValidos_Espero_UsuarioValido()
             {
-                usuariosRepositorio.Inserir(Arg.Any<Usuario>()).Returns(x => usuarioValido);
-                Usuario usuarioRetorno = sut.Inserir(usuarioValido);
-                usuarioRetorno.Should().BeSameAs(usuarioValido);
+                usuariosRepositorio.Inserir(Arg.Any<Usuario>()).Returns(usuarioValido);
+                var usuario = sut.Inserir(usuarioValido);
+                usuariosRepositorio.Received(1).Inserir(usuarioValido);
+                usuario.Should().BeOfType<Usuario>();
+                usuario.Should().Be(usuarioValido);
             }
         }
 
@@ -59,9 +57,14 @@ namespace Dominio.Testes.Usuarios.Servicos
             [Fact]
             public void Quando_ParametrosParaAtualizarUsuarioForemValidos_Espero_UsuarioValido()
             {
-                usuariosRepositorio.Editar(Arg.Any<Usuario>()).Returns(x => usuarioValido);
-                Usuario usuarioRetorno = sut.Editar(usuarioValido.Id,usuarioValido.Nome,usuarioValido.Email, usuarioValido.Senha);
-                usuarioRetorno.Should().BeSameAs(usuarioValido);
+           
+                usuariosRepositorio.Recuperar(1).Returns(usuarioValido);
+                sut.Editar(1, "Alexandre", "Alexandre@gmail.com", "Aleatorio!@2");
+                usuarioValido.Nome.Should().Be("Alexandre");
+                usuarioValido.Senha.Should().Be("Aleatorio!@2");
+                usuarioValido.Email.Should().Be("Alexandre@gmail.com");
+                usuariosRepositorio.Received().Editar(usuarioValido);
+
             }
         }
 
@@ -86,9 +89,9 @@ namespace Dominio.Testes.Usuarios.Servicos
         [Fact]
         public void Quando_PrecisoExcluirUsuarios_Espero_UsuarioExcluido()
         {
-            var usuarioId = 1;
-            sut.Excluir(usuarioId);
-            usuariosRepositorio.Received(1).Excluir(usuarioId);
+            usuariosRepositorio.Recuperar(1).Returns(usuarioValido);
+            sut.Excluir(1);
+            usuariosRepositorio.Received().Excluir(usuarioValido);
         }
         }
     }
