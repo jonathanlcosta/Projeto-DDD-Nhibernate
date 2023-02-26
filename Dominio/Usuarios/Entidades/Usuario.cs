@@ -7,9 +7,9 @@ namespace Dominio.Entidades
 {
     public class Usuario : BaseEntity
     {
-        public virtual string? Nome { get; set; }
-        public virtual string? Email { get; set; }
-        public virtual string? Senha { get; set; }
+        public virtual string? Nome { get; protected set; }
+        public virtual string? Email { get; protected set; }
+        public virtual string? Senha { get; protected set; }
         public Usuario(){}
         public Usuario(string nome, string email, string senha)
         {

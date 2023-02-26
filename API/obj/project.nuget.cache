@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RirEobKomNwevbH9xqlEjn1mQRofgAPkUxwVo6N5Ai99OZYqBpiAdJ7f1/cLW1Jrzxtegl5z5a8d/BUEtI1Tlw==",
+  "dgSpecHash": "Tefil4n2+k0fnwUst7Aearqd+dYBV2bgvwNRWPqGrivLWdyDdKQrrhAAnOoR8cVVLaI/jjxd3rwbwf9k17tRMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nickc\\Downloads\\ProjetoDDD\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\nickc\\Downloads\\ProjetoDDD\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nickc\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
     "C:\\Users\\nickc\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",

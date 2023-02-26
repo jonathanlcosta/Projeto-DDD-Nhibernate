@@ -21,9 +21,9 @@ namespace Infra.Genericos
             return entidade;
         }
 
-        public void Excluir(int id)
+        public void Excluir(T entidade)
         {
-            session.Delete(id);
+            session.Delete(entidade);
         }
 
         public T Inserir(T entidade)

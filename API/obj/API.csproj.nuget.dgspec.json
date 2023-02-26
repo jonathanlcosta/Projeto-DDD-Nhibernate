@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nickc\\Downloads\\ProjetoDDD\\API\\API.csproj": {}
+    "C:\\Users\\nickc\\Downloads\\ProjetoDDD\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nickc\\Downloads\\ProjetoDDD\\API\\API.csproj": {
+    "C:\\Users\\nickc\\Downloads\\ProjetoDDD\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nickc\\Downloads\\ProjetoDDD\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\nickc\\Downloads\\ProjetoDDD\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\nickc\\Downloads\\ProjetoDDD\\API\\API.csproj",
+        "projectPath": "C:\\Users\\nickc\\Downloads\\ProjetoDDD\\api\\API.csproj",
         "packagesPath": "C:\\Users\\nickc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nickc\\Downloads\\ProjetoDDD\\API\\obj\\",
+        "outputPath": "C:\\Users\\nickc\\Downloads\\ProjetoDDD\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nickc\\AppData\\Roaming\\NuGet\\NuGet.Config",
